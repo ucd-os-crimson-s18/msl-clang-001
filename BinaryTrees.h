@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 typedef struct Word {
 
   char* text; // word string
@@ -8,10 +10,8 @@ typedef struct Word {
 } Word;
 
 
-// a collection of nodes in alphabetic order
-typedef struct Tree {
-
-  Word *top; // ptr to beginning of tree
-  int Num_nodes;
-
-} Tree;
+// Function declarations
+Word * addWord(Word *tree, char *text);
+int printTree(Word *tree, FILE *fp);
+int clearTree(Word *tree);
+Word * createTree(Word *tree, FILE *file);
