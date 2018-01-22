@@ -118,5 +118,8 @@ int main(int argc, char **argv)
 
     root = NULL;
 
-    exit(0);
+  return 0;
 }
+
+
+ 
