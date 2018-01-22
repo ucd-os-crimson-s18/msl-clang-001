@@ -8,14 +8,12 @@ _data structures and pointers in the C language_
 
 ## Approach
 Using only ANSI C Standard Library we needed to implement our own Binary Tree using a self-referential 
-struct, adding dynamic allocation for new words and a counter for word count. We must have an insert function 
-to insert new words onto our tree checking against already inserted words for alphabetical order.
-The nodes and words were dynamically allocated using the malloc function. We needed to implement
-a delete function in order to free the memory we used. Finally, we needed a output function in order
-to traverse the tree and produce an alphabetical output with word count on the file. The input file
-was read through the command line and processed in chunks using a buffer where the insert function was called.
-After we could read the data and stored it in our binary tree we could then output to our file and finally
-delete the tree.
+struct, adding dynamic allocation for new words and a counter for word count.
+We must have an insert function to insert new words onto our tree checking against already inserted words for alphabetical order.
+The nodes and words were dynamically allocated using the malloc function.
+We needed to implement a delete function in order to free the memory we used.
+Finally, we needed a output function in order to traverse the tree and produce an alphabetical output with word count on the file. The input file was read through the command line and processed in chunks using a buffer where the insert function was called.
+After we could read the data and stored it in our binary tree we could then output to our file and finally delete the tree.
 
 ## Data Structures
 As directed we used a Binary Tree data structure to store the words from the file.
