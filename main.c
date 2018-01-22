@@ -100,7 +100,7 @@ int main(int argc, char **argv)
     // Close input file
     fclose(inputFile);
 
-    FILE* outputFile = fopen("myoutput1.txt", "w"); // open output file, "w" for write
+    FILE* outputFile = fopen("myoutput01.txt", "w"); // open output file, "w" for write
 
     if(outputFile == NULL) // if file does not exist
     {
