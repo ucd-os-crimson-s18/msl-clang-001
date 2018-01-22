@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/user/Documents/2017-2018/Spring/OS/PA01/msl-clang-001/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
